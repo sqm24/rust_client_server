@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "babychat"
 version = "0.1.0"
+
+[[package]]
+name = "rust_client_server"
+version = "0.1.0"
