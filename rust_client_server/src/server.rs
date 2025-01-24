@@ -26,6 +26,6 @@ struct Data {
     players: Client![]
 }
 
-fn main() {
-    
+fn main() -> std::io::Result<()> {
+    let listener = TcpListener::bind("127.0.0.1:6969").unwrap();
 }

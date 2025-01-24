@@ -1,0 +1,7 @@
+Struct GameData {
+
+}
+
+fn main() {
+
+}
