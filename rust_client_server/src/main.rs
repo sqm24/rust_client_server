@@ -1,7 +1,7 @@
-use std::sync::{mpsc, Arc, Mutex};
-use std::thread;
 use std::fs::File;
 use std::io::{self, Write};
+use std::sync::{mpsc, Arc, Mutex};
+use std::thread;
 
 fn process_file(filename: &str) -> io::Result<String> {
     // Pretend we're processing a file

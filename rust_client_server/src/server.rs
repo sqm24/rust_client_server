@@ -1,3 +1,5 @@
+use serde::{Serialize, Deseralize};
+
 // // not going to use channels because they are not meant for networking like I once thought they were 
 // // DOH!!
 
@@ -14,3 +16,16 @@ https://www.reddit.com/r/rust/comments/17za1x5/i_love_the_idea_of_using_channels
 https://github.com/NimonSour/interthread
 
 */
+
+struct Client {
+    username: &str
+}
+
+struct Data {
+    player_turn: Client,
+    players: Client![]
+}
+
+fn main() {
+    
+}
